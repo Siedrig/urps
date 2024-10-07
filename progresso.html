@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+            </head>
+    <body>
+
+        <header id="app-header"></header>
+        <script async src="header.js"></script>
+
+        <div class="main">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Município</td>
+                    <td>Quantidade de bairros retomados</td>
+                </tr>
+            </thead>
+        
+            <tfoot>
+                <tr>
+                <td>Total</td>
+                <td>89</td>
+            </tr>
+        </tfoot>
+        
+        <tbody>
+            <tr>
+                <td>Campinas</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>São Carlos</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>35</td>
+            </tr>
+        </tbody>
+        
+            
+        </table>
+
+        <section>
+            <form action="" method="post" class="modelo1">
+                <h1>Formulário de Contato <br>
+                    <span class="titulo2">Preencha todos os campos</span>
+                </h1>
+                <div>
+                    <div class="rotulos"> Nome  :</div>
+                    <input id="nome" type="text" name="nome" placeholder="Nome completo" class="entrada">
+                </div>
+                <div>
+                    <div class="rotulos">Assunto    :</div>
+                    <select name="opcoes" class="entrada">
+                        <option value=""></option>
+                        <option value="Dúvidas do produto">Dúvidas do produto</option>
+                        <option value="Atraso na entrega">Atraso na entrega</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="rotulos">Mensagem   :</div>
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" class="entrada"></textarea>
+                </div>
+                <div>
+            
+                    <br>
+                    <input type="button" value="Enviar" class="botao">  
+                </div>
+            </form>
+        </section>
+        </div>
+
+        
+        
+    </body>
+</html>

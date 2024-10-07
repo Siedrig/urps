@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial scale=1.0">
+            <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+            <title>Acesso</title> 
+        
+    </head>
+
+
+        <body>
+            <header id="app-header"></header>
+            <script async src="header.js"></script> 
+
+                <div class="main">
+                    <form name="Entrada" method="post"  action="membroEntrada.php">
+                        <fieldset>
+                            <legend>Entrada</legend>
+                        <input type="text" name="Nome"  required="required" placeholder="Digite seu nome" id="">
+                            <br>
+                        <input type="email" name="ShamanID" placeholder="Número de Identificação" id="">
+                        <br>
+                        <input type="password" name="Senha" placeholder="Chave de acesso" id="">
+                        <br>
+                        <br>
+                        <input type="submit" name="Envio" value="Conectar" id="">
+                        </fieldset>
+                        
+                    </form>
+                </div>
+        </body>
+    </html>
+    
