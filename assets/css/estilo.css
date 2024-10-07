@@ -35,6 +35,6 @@ text-decoration: none;
     background-color: #111;
 }
 
-a.active {
+#navegacao a.active {
     background-color: #0483aa;
 }
