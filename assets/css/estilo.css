@@ -1,9 +1,19 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
 body {
     background-color: #ffffff;
 
 }
 .main {
-    margin: auto;
+margin: auto;
     width: 50%;
     padding: 10px;
 }
